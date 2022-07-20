@@ -63,7 +63,7 @@ class ViewMakerServiceProvider extends ServiceProvider
 
         // Publishing the command.
         $this->publishes([
-            __DIR__.'/Commands/ViewsMakeCommand.php' => app_path('Console/Commands/ViewsMakeCommand.php'),
+            __DIR__.'/Commands/ViewMakerCommand.php' => app_path('Console/Commands/ViewMakerCommand.php'),
         ], 'view-maker.command');
 
         // Publishing assets.
