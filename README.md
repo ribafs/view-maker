@@ -21,14 +21,24 @@ php artisan vendor:publish --provider="Ribafs\ViewMaker\ViewMakerServiceProvider
 ## Usage
 
 ```bash
-
 php artisan view:maker
+```
+## Try
+To try this package use the package
+https://github.com/appzcoder/crud-generator-laravel-br
 
+or the original
+https://github.com/appzcoder/crud-generator
+
+Create a CRUD, rename the created views folder and generate the views with this package
+```bash
+composer require laravelcollective/html
+compose require ribafs/view-maker
 ```
 
 ## Credits
 
-- [Author Name][https://ribamar.net.br]
+- [Author Name][Ribamar FS - https://ribamar.net.br]
 
 
 ## Licence
