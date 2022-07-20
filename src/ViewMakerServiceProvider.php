@@ -66,6 +66,10 @@ class ViewMakerServiceProvider extends ServiceProvider
             __DIR__.'/Commands/ViewMakerCommand.php' => app_path('Console/Commands/ViewMakerCommand.php'),
         ], 'view-maker.command');
 
+        $this->publishes([
+            __DIR__.'/Commands/views.php' => app_path('Console/Commands/views.php'),
+        ], 'view-maker.command');
+
         // Publishing assets.
         /*$this->publishes([
             __DIR__.'/../resources/assets' => public_path('vendor/ribafs'),
