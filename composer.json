@@ -1,0 +1,41 @@
+{
+    "name": "ribafs/view-maker",
+    "description": "Gerador de views para CRUDs no framework laravel 9",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ribamar FS",
+            "email": "gmail@gmail.com",
+            "homepage": "https://ribamar.net.br"
+        }
+    ],
+    "homepage": "https://github.com/ribafs/view-maker",
+    "keywords": ["Laravel", "ViewMaker", "Views", "Maker"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ribafs\\ViewMaker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ribafs\\ViewMaker\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ribafs\\ViewMaker\\ViewMakerServiceProvider"
+            ],
+            "aliases": {
+                "ViewMaker": "Ribafs\\ViewMaker\\Facades\\ViewMaker"
+            }
+        }
+    }
+}
