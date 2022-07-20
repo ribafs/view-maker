@@ -2,6 +2,10 @@
 
 Creatin views to CRUD in laravel framework
 
+## About
+
+Very simpla package
+
 ## Installation
 
 ``` bash
