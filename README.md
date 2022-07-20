@@ -6,15 +6,11 @@ Creatin views to CRUD in laravel framework
 
 Very simpla package
 
-## Installation
+## Installation package and dependency
 
 ``` bash
-$ composer require ribafs/view-maker
-```
-## Dependence
-
-``` bash
-$ composer require laravelcollective/html
+composer require laravelcollective/html
+composer require ribafs/view-maker
 ```
 
 ## Publish
