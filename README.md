@@ -1,6 +1,6 @@
 # Package ViewMaker to Laravel
 
-Creatin views to CRUD in laravel framework
+Creation views to CRUD in laravel framework
 
 ## About
 
