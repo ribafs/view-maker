@@ -4,7 +4,7 @@ Creating views to CRUD in laravel framework
 
 ## About
 
-Very simpla package
+Very simple package
 
 ## Installation package and dependency
 
