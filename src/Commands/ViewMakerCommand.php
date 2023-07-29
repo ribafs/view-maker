@@ -8,7 +8,9 @@ use Illuminate\Support\Facades\Schema;
 
 class ViewMakerCommand extends Command
 {
-
+// Criar a pasta app/Console/Commands e copiar este arquivo para ela, então executar:
+// php artisan view:maker
+// Entrar com o nome da tabela e depois os nmes de dois campos. Caso sua tabela tenha mais de dois campos faça os devidos ajutes
     protected $signature = 'view:maker';
     protected $description = 'Criação das views básicas: create, edit, index e show. Somente dois campos';
     
