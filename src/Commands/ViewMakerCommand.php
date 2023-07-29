@@ -22,7 +22,6 @@ foreach($fields as $field){
     if($field == 'id' || $field == 'created_at' || $field == 'updated_at') continue;
     array_push($fld, $field);
 }
-print_r($fld);exit;
 
         if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
             system('cls');
@@ -229,6 +228,6 @@ print_r($fld);exit;
             File::put($folderend.'show.blade.php',$show);
             
             $this->info(PHP_EOL);
-            $this->info('Views criadas na pasta "resources/'.$folders.'"'.PHP_EOL);
+            $this->info('Views criadas na pasta "resources/views/'.$folders.'"'.PHP_EOL);
         }
     }
